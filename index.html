@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Practical online IT training, guided projects and career preparation at TechBridge IT Academy.">
+  <meta name="theme-color" content="#08264a">
+  <title>TechBridge IT Academy | Practical IT Training</title>
+  <link rel="icon" href="assets/logo.svg">
+  <link rel="stylesheet" href="assets/style.css">
+  <style>
+    /* Homepage-only enhancements; the rest of the site's stylesheet stays unchanged. */
+    .hero.hero-expanded { background: radial-gradient(circle at 78% 35%, #174b91 0, #0b2e58 38%, #071d39 100%); }
+    .hero-expanded .heroGrid { align-items:center; gap:42px; }
+    .hero-expanded h1 span { color:#ff9b24; }
+    .hero-expanded .hero-visual { position:relative; min-width:0; }
+    .course-screen {
+      background:linear-gradient(145deg,#123f78,#081d3c);
+      border:2px solid #238bd8; border-radius:24px; padding:24px;
+      box-shadow:0 18px 48px #00152c80; color:#fff;
+    }
+    .screen-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; }
+    .screen-course {
+      min-height:104px; display:flex; flex-direction:column; align-items:center; justify-content:center;
+      gap:8px; text-align:center; border:1px solid #2995e4; border-radius:15px;
+      background:linear-gradient(145deg,#15518d,#0b2a52); padding:10px 6px;
+      font-size:14px; font-weight:700;
+    }
+    .screen-course .symbol { font-size:27px; line-height:1; }
+    .journey-card {
+      position:relative; margin:-4px -18px 0; background:#f8fbff; color:#10233f;
+      border-radius:20px; padding:18px 16px 16px; box-shadow:0 14px 34px #00152c70;
+    }
+    .journey-title { text-align:center; font-size:18px; font-weight:800; margin-bottom:14px; }
+    .journey-steps { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:6px; }
+    .journey-step { text-align:center; font-size:12px; line-height:1.35; }
+    .journey-icon { width:42px;height:42px;border-radius:50%;display:grid;place-items:center;margin:0 auto 7px;color:#fff;font-size:20px;font-weight:800; }
+    .journey-step strong { display:block;font-size:13px;margin-bottom:3px; }
+    .journey-step small { color:#52647c;font-size:11px; }
+    .program-strip { padding:28px 0 36px; background:#071d39; color:#fff; }
+    .program-strip-inner { display:grid;grid-template-columns:1.5fr 4fr;gap:20px;align-items:center; }
+    .program-strip h2 { font-size:25px;margin:0 0 7px; }
+    .program-strip p { margin:0;color:#d1deef; }
+    .program-chips { display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:9px; }
+    .program-chip { min-height:92px;border:1px solid #3989c7;border-radius:14px;background:#0d315b;padding:10px 5px;text-align:center;display:flex;flex-direction:column;justify-content:center;gap:6px;font-size:12px;font-weight:700;color:#fff; }
+    .program-chip span {font-size:23px;}
+    @media(max-width:900px) {
+      .hero-expanded .heroGrid { grid-template-columns:1fr; }
+      .hero-expanded .hero-visual { max-width:650px;margin:10px auto 0;width:100%; }
+      .program-strip-inner { grid-template-columns:1fr; }
+      .program-chips { grid-template-columns:repeat(4,minmax(0,1fr)); }
+    }
+    @media(max-width:520px) {
+      .course-screen { padding:14px; }
+      .screen-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+      .journey-card { margin:-2px -6px 0;padding:14px 8px; }
+      .journey-steps { gap:2px; }
+      .journey-icon { width:34px;height:34px;font-size:17px; }
+      .journey-step strong { font-size:11px; }
+      .journey-step small { font-size:9px; }
+      .program-chips { grid-template-columns:repeat(2,minmax(0,1fr)); }
+    }
+  </style>
+  <meta name="google-site-verification" content="m5s3KIvLQoXGWohClTX7aSwUdfPDQBt95j722MEYZIA" />
+</head>
+<body>
+  <div class="top">
+    <div class="wrap">
+      <span>Online IT Training • Practical Projects • Career Preparation</span>
+      <span><a href="tel:+917989129152">+91 79891 29152</a> &nbsp;|&nbsp; <a href="mailto:nlalitha090@gmail.com">nlalitha090@gmail.com</a></span>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="wrap nav">
+      <a href="index.html"><img class="logo" src="assets/logo.svg" alt="TechBridge IT Academy"></a>
+      <button class="menu" aria-label="Menu">☰</button>
+      <nav class="links">
+        <a href="index.html">Home</a><a href="about.html">About</a><a href="courses.html">Courses</a>
+        <a href="projects.html">Projects</a><a href="placements.html">Placement Support</a>
+        <a href="interview.html">Interview Prep</a><a href="contact.html">Contact</a>
+      </nav>
+      <a class="btn" href="demo.html">Free Demo →</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero-expanded">
+      <div class="wrap heroGrid">
+        <div>
+          <span class="pill">🚀 Admissions Enquiries Open</span>
+          <h1>Build your IT career <span>with practical skills.</span></h1>
+          <p>Learn in-demand technologies through structured online training, guided projects and focused interview preparation at TechBridge IT Academy.</p>
+          <div class="actions">
+            <a class="btn" href="demo.html">▶ Book a Free Demo →</a>
+            <a class="btn alt" href="courses.html">Explore Courses</a>
+          </div>
+          <div class="heroSmall">✓ Live Online Classes &nbsp; ✓ Hands-on Projects &nbsp; ✓ Career Guidance</div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="course-screen">
+            <div class="screen-grid">
+              <div class="screen-course"><span class="symbol">🐍</span>Python</div>
+              <div class="screen-course"><span class="symbol">▤</span>SQL</div>
+              <div class="screen-course"><span class="symbol">☁</span>AWS</div>
+              <div class="screen-course"><span class="symbol">🧪</span>Selenium</div>
+              <div class="screen-course"><span class="symbol">∞</span>DevOps</div>
+              <div class="screen-course"><span class="symbol">⇄</span>ETL Testing</div>
+              <div class="screen-course"><span class="symbol">✦</span>PySpark</div>
+              <div class="screen-course"><span class="symbol">▱</span>Data Engineering</div>
+            </div>
+          </div>
+          <div class="journey-card">
+            <div class="journey-title">📈 Your Learning Journey – From Basics to Career</div>
+            <div class="journey-steps">
+              <div class="journey-step"><div class="journey-icon" style="background:#168be0">▤</div><strong>Learn</strong><small>Build strong fundamentals</small></div>
+              <div class="journey-step"><div class="journey-icon" style="background:#13ad83">‹/›</div><strong>Practice</strong><small>Hands-on exercises</small></div>
+              <div class="journey-step"><div class="journey-icon" style="background:#f28b19">▱</div><strong>Build</strong><small>Real-world projects</small></div>
+              <div class="journey-step"><div class="journey-icon" style="background:#7950d5">♙</div><strong>Prepare</strong><small>Interview readiness</small></div>
+              <div class="journey-step"><div class="journey-icon" style="background:#d83c9c">▣</div><strong>Career</strong><small>Placement support</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="program-strip">
+      <div class="wrap program-strip-inner">
+        <div><h2>Our Training Programs</h2><p>Explore job-ready courses designed for freshers and working professionals.</p></div>
+        <div class="program-chips">
+          <div class="program-chip"><span>🐍</span>Python Programming</div>
+          <div class="program-chip"><span>🧪</span>Selenium Automation</div>
+          <div class="program-chip"><span>▤</span>SQL & Advanced SQL</div>
+          <div class="program-chip"><span>⇄</span>ETL Testing</div>
+          <div class="program-chip"><span>☁</span>AWS Cloud</div>
+          <div class="program-chip"><span>∞</span>DevOps & CI/CD</div>
+          <div class="program-chip"><span>✦</span>PySpark & Big Data</div>
+          <div class="program-chip"><span>▱</span>Data Engineering</div>
+          <div class="program-chip"><span>🤖</span>Robot Framework</div>
+          <div class="program-chip"><span>🎭</span>Playwright</div>
+          <div class="program-chip"><span>⌘</span>Git & GitHub</div>
+          <div class="program-chip"><span>🔧</span>Jenkins</div>
+          <div class="program-chip"><span>🏗️</span>Terraform</div>
+          <div class="program-chip"><span>🔌</span>API Testing</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust"><div class="wrap trustGrid"><span>✓ Practical learning</span><span>⌘ Guided projects</span><span>◎ Interview preparation</span><span>↗ Placement assistance</span></div></section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="head"><span class="kicker">Explore our programs</span><h2>Professional IT training programs</h2><p>Choose a learning path that matches your goals. Course coverage and pace are discussed before enrolment.</p></div>
+        <div class="grid">
+          <article class="card"><div class="ico">🐍</div><h3>Python Programming</h3><p>Build a strong foundation in Python and write practical scripts for automation and data tasks.</p><a class="more" href="course-python.html">View course syllabus →</a></article>
+          <article class="card"><div class="ico">⌘</div><h3>Selenium Automation Testing</h3><p>Learn browser automation with Python, Selenium WebDriver and a maintainable test framework.</p><a class="more" href="course-selenium.html">View course syllabus →</a></article>
+          <article class="card"><div class="ico">▤</div><h3>SQL & Advanced SQL</h3><p>Develop practical database querying and data analysis skills.</p><a class="more" href="course-sql.html">View course syllabus →</a></article>
+          <article class="card"><div class="ico">⇄</div><h3>ETL Testing</h3><p>Understand data pipelines and validate source-to-target movement, transformations and data quality.</p><a class="more" href="course-etl.html">View course syllabus →</a></article>
+          <article class="card"><div class="ico">☁</div><h3>AWS Cloud Fundamentals</h3><p>Get hands-on familiarity with commonly used AWS cloud services.</p><a class="more" href="course-aws.html">View course syllabus →</a></article>
+          <article class="card"><div class="ico">⚙</div><h3>DevOps & CI/CD</h3><p>Understand version control, build automation and delivery pipelines.</p><a class="more" href="course-devops.html">View course syllabus →</a></article>
+          <article class="card"><div class="ico">✧</div><h3>PySpark & Big Data</h3><p>Learn distributed data processing concepts and build transformations using PySpark.</p><a class="more" href="course-pyspark.html">View course syllabus →</a></article>
+          <article class="card"><div class="ico">◈</div><h3>Data Engineering</h3><p>Explore cloud-based data pipelines, data lakes and batch processing.</p><a class="more" href="course-data-engineering.html">View course syllabus →</a></article>
+          <article class="card"><div class="ico">🤖</div><h3>Robot Framework</h3><p>Learn keyword-driven test automation, reusable test cases, libraries and test reporting.</p><a class="more" href="contact.html">Enquire about this course →</a></article>
+          <article class="card"><div class="ico">🎭</div><h3>Playwright</h3><p>Practise modern browser automation, locators, assertions, fixtures and cross-browser testing.</p><a class="more" href="contact.html">Enquire about this course →</a></article>
+          <article class="card"><div class="ico">⌘</div><h3>Git & GitHub</h3><p>Understand version control, branching, commits, pull requests and team collaboration.</p><a class="more" href="contact.html">Enquire about this course →</a></article>
+          <article class="card"><div class="ico">🔧</div><h3>Jenkins</h3><p>Learn Jenkins jobs, pipelines, build automation and continuous integration workflows.</p><a class="more" href="contact.html">Enquire about this course →</a></article>
+          <article class="card"><div class="ico">🏗️</div><h3>Terraform</h3><p>Explore infrastructure as code, providers, resources, variables, state and reusable modules.</p><a class="more" href="contact.html">Enquire about this course →</a></article>
+          <article class="card"><div class="ico">🔌</div><h3>API Testing</h3><p>Learn API concepts, HTTP methods, status codes, request validation and automated API checks.</p><a class="more" href="contact.html">Enquire about this course →</a></article>
+        </div>
+        <div style="text-align:center;margin-top:30px"><a class="btn" href="courses.html">View all courses →</a></div>
+      </div>
+    </section>
+
+    <section class="section soft">
+      <div class="wrap two">
+        <div><span class="kicker">Why TechBridge IT Academy</span><h2>Learn concepts. Practice skills. Build confidence.</h2>
+          <p class="muted">Our learning approach combines clear explanations, hands-on exercises and guided projects so learners can connect technical knowledge to practical tasks.</p>
+          <ul class="list"><li>Structured learning paths for freshers and working professionals</li><li>Live online sessions and doubt-clearing support</li><li>Assignments and project-based practice</li><li>Resume guidance and technical mock interviews</li><li>Job search and application guidance</li></ul>
+          <a class="btn" href="about.html">About the academy</a>
+        </div>
+        <div class="darkPanel"><h3>From learning to career preparation</h3><p>Build a foundation, practise with guided tasks, document your work and prepare to explain your skills in interviews.</p>
+          <div class="steps" style="grid-template-columns:1fr 1fr"><div class="step"><strong>1</strong><h3>Learn</h3><p>Understand the concepts.</p></div><div class="step"><strong>2</strong><h3>Practice</h3><p>Complete exercises.</p></div><div class="step"><strong>3</strong><h3>Build</h3><p>Work on projects.</p></div><div class="step"><strong>4</strong><h3>Prepare</h3><p>Practise interviews.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section"><div class="wrap"><div class="head"><span class="kicker">Career support</span><h2>More than classroom training</h2><p>Get structured guidance to prepare for the next step in your IT career.</p></div>
+      <div class="grid"><article class="card"><div class="ico">▣</div><h3>Resume & LinkedIn</h3><p>Guidance to present your technical skills, projects and experience clearly.</p></article><article class="card"><div class="ico">◎</div><h3>Mock Interviews</h3><p>Practise technical and HR-style questions and receive improvement feedback.</p></article><article class="card"><div class="ico">↗</div><h3>Job Search Guidance</h3><p>Learn to identify relevant openings, prepare applications and track progress.</p></article></div>
+    </div></section>
+
+    <section class="section soft"><div class="wrap"><div class="cta"><div><h2>Not sure which course is right for you?</h2><p>Talk to us and request a free introductory demo session.</p></div><a class="btn" href="demo.html">Register for a free demo →</a></div></div></section>
+  </main>
+
+  <footer class="footer"><div class="wrap"><div class="footgrid">
+    <div><img src="assets/logo.svg" class="logo" alt="TechBridge IT Academy"><p>Practical online IT training, guided projects and career preparation for aspiring and working IT professionals.</p></div>
+    <div><h4>Academy</h4><ul><li><a href="about.html">About Us</a></li><li><a href="courses.html">Courses</a></li><li><a href="projects.html">Projects</a></li></ul></div>
+    <div><h4>Career Support</h4><ul><li><a href="placements.html">Placement Assistance</a></li><li><a href="interview.html">Interview Preparation</a></li><li><a href="demo.html">Free Demo</a></li></ul></div>
+    <div><h4>Contact</h4><ul><li><a href="https://wa.me/917989129152">WhatsApp: +91 79891 29152</a></li><li><a href="mailto:nlalitha090@gmail.com">nlalitha090@gmail.com</a></li><li>Online training – India</li></ul></div>
+  </div><div class="copyright">© <span data-year></span> TechBridge IT Academy. All rights reserved. &nbsp;|&nbsp; Learn Today. Build Tomorrow.</div></div></footer>
+  <a class="wa" href="https://wa.me/917989129152?text=Hello%20TechBridge%20Academy%2C%20please%20share%20course%20details." target="_blank" rel="noopener">☏ WhatsApp</a>
+  <script src="assets/script.js"></script>
+</body>
+</html>
